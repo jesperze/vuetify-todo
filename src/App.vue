@@ -5,9 +5,8 @@
         app
         color="primary"
         dark
-    
         src="bg-2.jpg">
-                
+
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6">
@@ -38,6 +37,11 @@
             <v-list-item-title>{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item-action>
+          <v-btn icon>
+            <v-icon color="grey lighten-1">mdi-information</v-icon>
+          </v-btn>
+        </v-list-item-action>
       </v-list>
     </v-navigation-drawer>
     <v-app-bar
