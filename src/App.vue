@@ -3,7 +3,11 @@
     <v-navigation-drawer
         v-model="drawer"
         app
-    >
+        color="primary"
+        dark
+    
+        src="bg-2.jpg">
+                
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6">
@@ -38,11 +42,11 @@
     </v-navigation-drawer>
     <v-app-bar
       app
-      color="#fcb69f"
+      color="primary"
       dark
-
-      src="https://picsum.photos/1920/1080?random"
+      src="mountains.png"
     >
+
       <template v-slot:img="{ props }">
         <v-img
           v-bind="props"
