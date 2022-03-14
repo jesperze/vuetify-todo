@@ -1,7 +1,4 @@
 <template>
-  <v-container>
-    <div>HelloWorld Component</div>
-  </v-container>
 </template>
 
 <script>
